@@ -1,0 +1,65 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: his_tracking - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPAB.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /FR"Debug/" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\实习相关\ftp_中科院\主动跟踪\my own\hisfortracking\his_tracking_pic\FeatMS.cpp"
+"E:\实习相关\ftp_中科院\主动跟踪\my own\hisfortracking\his_tracking_pic\his_tracking.cpp"
+"E:\实习相关\ftp_中科院\主动跟踪\my own\hisfortracking\his_tracking_pic\Hisfortrack.cpp"
+"E:\实习相关\ftp_中科院\主动跟踪\my own\hisfortracking\his_tracking_pic\MeanShift.cpp"
+"E:\实习相关\ftp_中科院\主动跟踪\my own\hisfortracking\his_tracking_pic\Msfeature.c"
+"E:\实习相关\ftp_中科院\主动跟踪\my own\hisfortracking\his_tracking_pic\Utility.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPAB.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPAC.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /FR"Debug/" /Fp"Debug/his_tracking.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\实习相关\ftp_中科院\主动跟踪\my own\hisfortracking\his_tracking_pic\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPAC.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPAD.tmp" with contents
+[
+cv.lib cxcore.lib highgui.lib libc.lib msvcrt.lib libcmt.lib ws2_32.lib winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/his_tracking.pdb" /debug /machine:I386 /nodefaultlib:"LIBCD" /out:"Debug/his_tracking.exe" /pdbtype:sept 
+".\Debug\FeatMS.obj"
+".\Debug\his_tracking.obj"
+".\Debug\Hisfortrack.obj"
+".\Debug\MeanShift.obj"
+".\Debug\Msfeature.obj"
+".\Debug\StdAfx.obj"
+".\Debug\Utility.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPAD.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+FeatMS.cpp
+his_tracking.cpp
+Hisfortrack.cpp
+MeanShift.cpp
+e:\实习相关\ftp_中科院\主动跟踪\my own\hisfortracking\his_tracking_pic\meanshift.cpp(856) : warning C4305: '=' : truncation from 'const double' to 'float'
+e:\实习相关\ftp_中科院\主动跟踪\my own\hisfortracking\his_tracking_pic\meanshift.cpp(856) : warning C4305: '=' : truncation from 'const double' to 'float'
+Generating Code...
+e:\实习相关\ftp_中科院\主动跟踪\my own\hisfortracking\his_tracking_pic\meanshift.cpp(291) : warning C4715: 'CMeanShift::ReleaseMS' : not all control paths return a value
+e:\实习相关\ftp_中科院\主动跟踪\my own\hisfortracking\his_tracking_pic\hisfortrack.cpp(216) : warning C4715: 'CHisfortrack::Initial' : not all control paths return a value
+Compiling...
+Msfeature.c
+e:\实习相关\ftp_中科院\主动跟踪\my own\hisfortracking\his_tracking_pic\featms.cpp(495) : warning C4715: 'CFeatMS::TrackNextFrame' : not all control paths return a value
+e:\实习相关\ftp_中科院\主动跟踪\my own\hisfortracking\his_tracking_pic\msfeature.c(53) : warning C4101: 'pTemp' : unreferenced local variable
+Utility.c
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+his_tracking.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

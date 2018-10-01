@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "algorithm", "algorithm.vcproj", "{3E9856E3-F132-4A45-B205-653C7B336A0B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "viewbutton", "..\viewbutton\viewbutton.vcproj", "{10518400-86A3-4B5B-AA71-CB22B374DA08}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E9856E3-F132-4A45-B205-653C7B336A0B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3E9856E3-F132-4A45-B205-653C7B336A0B}.Debug|Win32.Build.0 = Debug|Win32
+		{3E9856E3-F132-4A45-B205-653C7B336A0B}.Release|Win32.ActiveCfg = Release|Win32
+		{3E9856E3-F132-4A45-B205-653C7B336A0B}.Release|Win32.Build.0 = Release|Win32
+		{10518400-86A3-4B5B-AA71-CB22B374DA08}.Debug|Win32.ActiveCfg = Debug|Win32
+		{10518400-86A3-4B5B-AA71-CB22B374DA08}.Debug|Win32.Build.0 = Debug|Win32
+		{10518400-86A3-4B5B-AA71-CB22B374DA08}.Release|Win32.ActiveCfg = Release|Win32
+		{10518400-86A3-4B5B-AA71-CB22B374DA08}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

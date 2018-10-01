@@ -1,0 +1,51 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: viewbutton - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP75.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/viewbutton.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\实习相关\ftp_中科院\主动跟踪\my own\active camera v1.4\viewbutton\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP75.tmp" 
+<h3>Output Window</h3>
+Compiling...
+Skipping... (no relevant changes detected)
+StdAfx.cpp
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP76.tmp" with contents
+[
+strmiids.lib ddraw.lib CxImage\Lib\CxImage.lib CxImage\Lib\Jpeg.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/viewbutton.pdb" /debug /machine:I386 /out:"Debug/viewbutton.exe" /pdbtype:sept 
+".\Debug\BtnST.obj"
+".\Debug\EnumDeviceDlg.obj"
+".\Debug\ISampleGrabberCB.obj"
+".\Debug\ISampleRendererCB.obj"
+".\Debug\libvisca.obj"
+".\Debug\MainFrm.obj"
+".\Debug\MYButton.obj"
+".\Debug\MYStatic.obj"
+".\Debug\PTZCtrl.obj"
+".\Debug\savePTZ.obj"
+".\Debug\StdAfx.obj"
+".\Debug\VideoDirectShow.obj"
+".\Debug\viewbutton.obj"
+".\Debug\viewbuttonDoc.obj"
+".\Debug\viewbuttonView.obj"
+".\Debug\XPReBar.obj"
+".\Debug\XPSliderCtrl.obj"
+".\Debug\viewbutton.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP76.tmp"
+<h3>Output Window</h3>
+Linking...
+
+
+
+<h3>Results</h3>
+viewbutton.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

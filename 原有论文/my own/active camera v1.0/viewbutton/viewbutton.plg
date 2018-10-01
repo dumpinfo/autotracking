@@ -1,0 +1,264 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: viewbutton - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/viewbutton.res" /d "_DEBUG" /d "_AFXDLL" "E:\active camera\viewbutton\viewbutton.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPE8.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\active camera\viewbutton\BtnST.cpp"
+"E:\active camera\viewbutton\EnumDeviceDlg.cpp"
+"E:\active camera\viewbutton\ISampleGrabberCB.cpp"
+"E:\active camera\viewbutton\ISampleRendererCB.cpp"
+"E:\active camera\viewbutton\libvisca.c"
+"E:\active camera\viewbutton\MainFrm.cpp"
+"E:\active camera\viewbutton\MYButton.cpp"
+"E:\active camera\viewbutton\MYStatic.cpp"
+"E:\active camera\viewbutton\PTZCtrl.cpp"
+"E:\active camera\viewbutton\savePTZ.cpp"
+"E:\active camera\viewbutton\VideoDirectShow.cpp"
+"E:\active camera\viewbutton\viewbutton.cpp"
+"E:\active camera\viewbutton\viewbuttonDoc.cpp"
+"E:\active camera\viewbutton\viewbuttonView.cpp"
+"E:\active camera\viewbutton\XPReBar.cpp"
+"E:\active camera\viewbutton\XPSliderCtrl.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPE8.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPE9.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/viewbutton.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\active camera\viewbutton\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPE9.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPEA.tmp" with contents
+[
+strmiids.lib ddraw.lib CxImage\Lib\CxImage.lib CxImage\Lib\Jpeg.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/viewbutton.pdb" /debug /machine:I386 /out:"Debug/viewbutton.exe" /pdbtype:sept 
+".\Debug\BtnST.obj"
+".\Debug\EnumDeviceDlg.obj"
+".\Debug\ISampleGrabberCB.obj"
+".\Debug\ISampleRendererCB.obj"
+".\Debug\libvisca.obj"
+".\Debug\MainFrm.obj"
+".\Debug\MYButton.obj"
+".\Debug\MYStatic.obj"
+".\Debug\PTZCtrl.obj"
+".\Debug\savePTZ.obj"
+".\Debug\StdAfx.obj"
+".\Debug\VideoDirectShow.obj"
+".\Debug\viewbutton.obj"
+".\Debug\viewbuttonDoc.obj"
+".\Debug\viewbuttonView.obj"
+".\Debug\XPReBar.obj"
+".\Debug\XPSliderCtrl.obj"
+".\Debug\viewbutton.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPEA.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+BtnST.cpp
+EnumDeviceDlg.cpp
+ISampleGrabberCB.cpp
+ISampleRendererCB.cpp
+Generating Code...
+Compiling...
+libvisca.c
+e:\active camera\viewbutton\libvisca.c(113) : warning C4101: 'bytes_read' : unreferenced local variable
+Generating Code...
+e:\active camera\viewbutton\libvisca.c(473) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(474) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(475) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(476) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(536) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(551) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(567) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(568) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(569) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(570) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(585) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(586) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(587) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(588) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(589) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(590) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(591) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(592) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(607) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(667) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(682) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(697) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(698) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(699) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(700) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(790) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(791) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(792) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(793) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(808) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(884) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(885) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(886) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(887) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(947) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(948) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(949) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(950) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(1010) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(1011) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(1012) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(1013) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(1073) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(1074) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(1075) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(1076) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(1136) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(1137) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(1138) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(1139) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(1199) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(1200) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(1201) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(1202) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(1262) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(1263) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(1264) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(1265) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(1327) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(1328) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(1329) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(1330) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(1588) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(1589) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(1590) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(1591) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(1592) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(1593) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(1594) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(1595) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(1596) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(1597) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(1673) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(1674) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(1675) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(1676) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(2426) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(2427) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(2442) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(2443) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(2458) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(2459) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(2474) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(2475) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(2490) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(2491) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(2506) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(2507) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(2522) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(2523) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(2538) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(2539) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(2554) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(2555) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(2573) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(2574) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(2576) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(2577) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(2578) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(2579) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(2581) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(2582) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(2583) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(2584) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(2603) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(2604) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(2605) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(2606) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(2607) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(2608) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(2609) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(2611) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(2612) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(2613) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(2614) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(2658) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(2659) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(2660) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(2661) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(2663) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(2664) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(2665) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(2666) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(2687) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(2688) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(2689) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(2690) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(2692) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(2693) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(2694) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(2695) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(2715) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(2716) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(2717) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(2718) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(2720) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(2721) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(2722) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(2723) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\vieCompiling...
+MainFrm.cpp
+wbutton\libvisca.c(2743) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(2744) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(2745) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(2746) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(2748) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(2749) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(2750) : warning C4761: integral size mismatch in argument; conversion supplied
+e:\active camera\viewbutton\libvisca.c(2751) : warning C4761: integral size mismatch in argument; conversion supplied
+MYButton.cpp
+MYStatic.cpp
+PTZCtrl.cpp
+savePTZ.cpp
+VideoDirectShow.cpp
+e:\active camera\viewbutton\videodirectshow.cpp(601) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+viewbutton.cpp
+viewbuttonDoc.cpp
+viewbuttonView.cpp
+e:\active camera\viewbutton\viewbuttonview.cpp(140) : warning C4244: '=' : conversion from 'double' to 'long', possible loss of data
+e:\active camera\viewbutton\viewbuttonview.cpp(141) : warning C4244: '=' : conversion from 'double' to 'long', possible loss of data
+e:\active camera\viewbutton\viewbuttonview.cpp(400) : warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+e:\active camera\viewbutton\viewbuttonview.cpp(411) : warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+e:\active camera\viewbutton\viewbuttonview.cpp(449) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+e:\active camera\viewbutton\viewbuttonview.cpp(449) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+e:\active camera\viewbutton\viewbuttonview.cpp(456) : warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+e:\active camera\viewbutton\viewbuttonview.cpp(457) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+e:\active camera\viewbutton\viewbuttonview.cpp(458) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+e:\active camera\viewbutton\viewbuttonview.cpp(460) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+e:\active camera\viewbutton\viewbuttonview.cpp(463) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+e:\active camera\viewbutton\viewbuttonview.cpp(465) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+e:\active camera\viewbutton\viewbuttonview.cpp(645) : warning C4244: '=' : conversion from 'double' to 'long', possible loss of data
+e:\active camera\viewbutton\viewbuttonview.cpp(646) : warning C4244: '=' : conversion from 'double' to 'long', possible loss of data
+e:\active camera\viewbutton\viewbuttonview.cpp(723) : warning C4244: '=' : conversion from 'double' to 'long', possible loss of data
+e:\active camera\viewbutton\viewbuttonview.cpp(724) : warning C4244: '=' : conversion from 'double' to 'long', possible loss of data
+e:\active camera\viewbutton\viewbuttonview.cpp(1018) : warning C4805: '&' : unsafe mix of type 'int' and type 'bool' in operation
+e:\active camera\viewbutton\viewbuttonview.cpp(1029) : warning C4805: '&' : unsafe mix of type 'int' and type 'bool' in operation
+e:\active camera\viewbutton\viewbuttonview.cpp(1046) : warning C4805: '&' : unsafe mix of type 'int' and type 'bool' in operation
+e:\active camera\viewbutton\viewbuttonview.cpp(1056) : warning C4805: '&' : unsafe mix of type 'int' and type 'bool' in operation
+XPReBar.cpp
+XPSliderCtrl.cpp
+Generating Code...
+Linking...
+LINK : warning LNK4098: defaultlib "MSVCRT" conflicts with use of other libs; use /NODEFAULTLIB:library
+
+
+
+<h3>Results</h3>
+viewbutton.exe - 0 error(s), 170 warning(s)
+</pre>
+</body>
+</html>

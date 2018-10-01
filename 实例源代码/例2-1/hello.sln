@@ -1,0 +1,10 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{059D6162-CD51-11D0-AE1F-00A0C90FFFC3}") = "hello", "hello.dsp", "{0190B101-9CC5-4A9D-BEA0-9B07C59F5740}"
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
